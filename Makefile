@@ -11,6 +11,7 @@ cli:
 	@mkdir -p bin/
 	@go get ./...
 	@go install dmcm-cli
+	@go install dmcm-dump
 
 clean:
 	@rm -rf bin/ pkg/ src/github.com/

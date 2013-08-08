@@ -26,7 +26,7 @@ As a library there really isn't much here yet. The main usage right now is a sta
 
 Examples:
 ```
-[user@host]: ES_ACCESS_KEY=ABCDEFG ES_SECRET_KEY=12345 bin/dmcm-cli geography/Cloud/1
+[user@host]: ES_ACCESS_KEY=ABCDEFG ES_SECRET_KEY=12345 bin/dmcm-dump geography/Cloud/1
 
 (map[string]interface {}) {
  (string) "clouds": ([]interface {}) {
@@ -52,7 +52,7 @@ Examples:
 ```
 
 ```
-[user@host]: ES_DETAIL=none ES_ACCESS_KEY=ABCDEFG ES_SECRET_KEY=12345 bin/dmcm-cli geography/Cloud/1
+[user@host]: ES_DETAIL=none ES_ACCESS_KEY=ABCDEFG ES_SECRET_KEY=12345 bin/dmcm-dump geography/Cloud/1
 
 (map[string]interface {}) {
  (string) "clouds": ([]interface {}) {
@@ -64,7 +64,7 @@ Examples:
 ```
 
 ```
-[user@host] ES_ENDPOINT="https://vagrant.vm:15433" ES_NOVERIFY_SSL=true ES_ACCESS_KEY=ABCDEFG ES_SECRET_KEY=12345 bin/dmcm-cli geography/Cloud/1
+[user@host] ES_ENDPOINT="https://vagrant.vm:15433" ES_NOVERIFY_SSL=true ES_ACCESS_KEY=ABCDEFG ES_SECRET_KEY=12345 bin/dmcm-dump geography/Cloud/1
 
 (map[string]interface {}) {
  (string) "clouds": ([]interface {}) {
