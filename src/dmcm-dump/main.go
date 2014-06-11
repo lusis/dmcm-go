@@ -47,7 +47,7 @@ func main() {
 	es_endpoint := func() string {
 		ep, ok := syscall.Getenv("ES_ENDPOINT")
 		if ok != true {
-			return "https://api.enstratus.com"
+			return "https://console.enstratius.com"
 		} else {
 			return ep
 		}
